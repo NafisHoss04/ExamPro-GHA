@@ -15,3 +15,11 @@ jobs:
           echo "Msg 1"
           echo "Msg 2"
           echo "::endgroup::"
+      
+      - name: "step 1"
+        run: |
+          echo "HEY=Hello" >> $GITHUB_ENV
+      
+      - name: "step 2"
+        run: |
+          echo $HEY
