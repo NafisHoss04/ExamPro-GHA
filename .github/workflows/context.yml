@@ -4,7 +4,7 @@ on: ['push']
 
 jobs:
   my-context:
-    runs-on: ubuntulatest
+    runs-on: ubuntu-latest
     env:
       MY_ACTION: ${{ github.action }}
     steps:
