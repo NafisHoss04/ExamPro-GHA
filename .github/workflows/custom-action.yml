@@ -8,7 +8,7 @@ jobs:
     name: This just greets the user
     steps:
       - name: Greet user
-        uses: NafisHoss04/custom-github-actions@0.0.1
+        uses: NafisHoss04/custom-github-action@0.0.1
         with:
           name: 'Nafis'
       - name: Confirm
