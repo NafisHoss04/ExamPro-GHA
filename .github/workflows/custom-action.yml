@@ -5,8 +5,11 @@ on: [push]
 jobs:
   greet:
     runs-on: ubuntu-latest
+    name: This just greets the user
     steps:
-      - name: 'Greet user'
+      - name: Greet user
         uses: NafisHoss04/custom-github-actions@0.0.1
         with:
           name: 'Nafis'
+      - name: Confirm
+        run: echo "Greeted."
